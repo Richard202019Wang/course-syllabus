@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            CSC309 Personal Website
+        </title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Roboto' type="text/css">
+        
+    </head>
+    <body>
+        <div class="header">
+            Hello Visitors!
+        </div>
+
+        <div class="half">
+            <h1 class="adjust">
+                CANYANG WANG
+            </h1>
+            <h2 class="adjust">
+                wangcany
+            </h2>
+            <ul class="adjust">
+                <li>A1 is worth 10%.</li>
+                <li>A2 is worth 20%.</li>
+                <li>A3 is worth 15%.</li>
+            </ul>
+            <br>
+            <details class="adjust">
+                <summary>Fact</summary>
+                <p>
+                    I'm <b>a</b> <del>robot</del> <ins>human</ins>! 
+                    <br>
+                </p>
+            </details>
+            <div class="adjust_table">
+                <table>
+                    <tr class="first_tr">
+                        <td><b>Course</b></td>
+                        <td><b>Year</b></td>
+                        <td><b>Semester</b></td>
+                        <td><b>Assignments</b></td>
+                    </tr>
+                    <tr>
+                        <td>CSC309</td>
+                        <td>2022</td>
+                        <td>Fall</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CSC209</td>
+                        <td>2022</td>
+                        <td>Summer</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                </table>
+                <br>
+
+            </div>
+    
+            <form enctype="multipart/form-data" action="https://csc309.teach.cs.toronto.edu/a1/submit/" method="post">
+                <label for="feedback">Feedback</label>
+                <textarea  placeholder="Enter your feedback here" id="feedback" name="feedback" required></textarea><br>
+                <label class="adjust2" for="email">Email</label>
+                <input class="adjust2" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="email" name="email" required><br>
+                <label class="adjust1" for="attachments">Attachment</label>
+                <input class="adjust1" type="file" id="attachments" name="attachments" required> <br>
+                <input class="adjust3" type="checkbox" id="consent" value="yes" name="consent" required>
+                <label class="adjust3" for="consent">You agree to receive emails from me</label><br>
+                <input type="submit" value="Send Feedback" class="submit">
+            </form>
+        </div>
+        <div class="emplify">
+            <embed class="emplify_text" src="https://csc309.teach.cs.toronto.edu/a1/20211_CSC309H5S_LEC9102.pdf">
+        </div>
+
+        <footer>
+            <a href="mailto:canyangrichard.wang@mail.utoronto.ca?subject=Bug Found&I found the following bug on your website">canyangrichard.wang@mail.utoronto.ca</a>
+        </footer>
+    </body>
+
+</html>
